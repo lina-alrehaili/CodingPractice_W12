@@ -1,0 +1,148 @@
+body {
+    background-image: url("assets/img/background.gif");
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    margin-top: 25px;
+}
+
+.title span {
+    background-color: black;
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.blog {
+    /* position: relative;
+    left: 20%; */
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* width: 65%; */
+}
+.blog:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+    z-index: 3;
+    border-color: #007bff !important;
+}
+.blog img {
+    width: 100%;
+    height: 30vh;
+}
+
+.blog span {
+    color: gray;
+    font-weight: 300 !important;
+}
+
+.blog a {
+    text-decoration: none;
+    color: black;
+}
+
+.blog a span {
+    background-color: black;
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.profile {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.profile:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+    z-index: 3;
+    border-color: #007bff !important;
+}
+.profile img {
+    width: 100%;
+}
+
+.btn {
+    border-radius: 0px !important;
+}
+
+.popular-posts {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.popular-posts h5 {
+    background-color: rgb(228, 228, 228);
+    padding: 15px;
+    color: rgb(70, 70, 70);
+}
+
+.border-radius {
+    /* margin-top: 0px; */
+    border-bottom: 1px solid lightgray;
+}
+
+.popular-posts img {
+    margin-top: -8px;
+    width: 20%;
+    padding: 15px;
+}
+
+.popular-posts h6 {
+    /* margin-bottom: 15px; */
+    position: relative;
+    top: 8px;
+}
+
+.tags {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tags h5 {
+    background-color: rgb(228, 228, 228);
+    padding: 15px;
+    color: rgb(70, 70, 70);
+}
+
+.tags a {
+    text-decoration: none;
+    color: rgb(39, 39, 39);
+    background-color: rgb(228, 228, 228);
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.tags a:hover {
+    line-height: 1.5em;
+    font-size: 130%; 
+    line-height: 1.15385em;
+}
+
+#span {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+@media (max-width:991px) {
+    .blog a {
+        position: relative;
+        left: -25px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width:768px) {
+    .blog a {
+        position: relative;
+        left: -25px;
+        font-size: 13px;
+    }
+}
